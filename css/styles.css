@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#contenedor{
+width: 960px;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+header{
+    height: 150px;
+    background: red;
+
+}
+header h1{
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+
+}
+nav{
+    background: purple;
+    height: 60px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    nav ul li{
+        display: inline-block;
+
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 20px 40px;
+        font-size: 20px;
+       
+    }
+   .contenido{
+       width: 700px;
+       height: 500px;
+       float: left;
+       background: lightgreen;
+       margin-top: 10px;
+       margin-right: 10px;
+       margin-bottom: 20px;
+   }
+   .articulo h2{
+       text-align: center;
+        color: red;
+       font-size: 20px;
+   }
+.articulo p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    padding: 20px 40px;
+}
+aside{
+    width: 250px;
+    height: 500px;
+    background: orange;
+    margin-top: 10px;
+    float: right;
+}
+aside h2{
+    text-align: center;
+    line-height: 150px;
+}
+#elementos{
+    width: 125px;
+    height: 250px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+footer{
+    background: lightblue;
+    clear: both;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+font-weight: bold;
+}
